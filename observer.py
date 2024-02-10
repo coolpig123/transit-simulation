@@ -1,5 +1,7 @@
 from shapely.geometry import Point
 from shapely.geometry.polygon import Polygon
+from os import environ
+environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 import pygame
 import math
 
